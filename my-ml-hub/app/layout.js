@@ -5,6 +5,7 @@ export const metadata = {
   title: 'Machine Learning Hub',
   description: 'A simple integrated web app using Supabase and Vercel.',
 };
+//test
 
 export default function RootLayout({ children }) {
   return (
