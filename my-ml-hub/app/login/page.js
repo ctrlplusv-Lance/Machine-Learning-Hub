@@ -61,7 +61,7 @@ export default function LoginPage() {
       </Link>
 
       {/* Card */}
-      <div className="w-full max-w-sm bg-gray-950 border border-gray-800 rounded-2xl p-8 shadow-2xl">
+      <div className="w-full max-w-sm bg-gray-950 border border-green-600/30 rounded-2xl p-8 shadow-[0_0_30px_rgba(34,197,94,0.18)] ring-1 ring-green-500/20 transition-all duration-300">
 
         {/* Header */}
         <div className="mb-8 text-center">
@@ -80,7 +80,7 @@ export default function LoginPage() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="you@example.com"
-            className="w-full bg-gray-900 border border-gray-700 text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-gray-500 focus:ring-1 focus:ring-gray-500 transition-colors"
+            className="w-full bg-gray-900 border border-gray-700 text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500/40 transition-colors"
           />
         </div>
 
@@ -95,7 +95,7 @@ export default function LoginPage() {
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Minimum 6 characters"
             onKeyDown={(e) => e.key === 'Enter' && handleLogin()}
-            className="w-full bg-gray-900 border border-gray-700 text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-gray-500 focus:ring-1 focus:ring-gray-500 transition-colors"
+            className="w-full bg-gray-900 border border-gray-700 text-white placeholder-gray-600 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500/40 transition-colors"
           />
         </div>
 
