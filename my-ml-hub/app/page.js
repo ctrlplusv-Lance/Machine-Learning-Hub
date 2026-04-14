@@ -5,22 +5,22 @@ import Link from 'next/link';
 const features = [
   {
     icon: '🧠',
-    title: 'Neural Networks',
+    title: 'LANCE',
     desc: 'Explore deep learning architectures and how they mimic the human brain.',
   },
   {
     icon: '📊',
-    title: 'Data Analytics',
+    title: 'IAN',
     desc: 'Transform raw datasets into meaningful insights with statistical tools.',
   },
   {
     icon: '🤖',
-    title: 'Model Training',
+    title: 'EIMAN',
     desc: 'Build, train, and evaluate machine learning models in the cloud.',
   },
   {
     icon: '🚀',
-    title: 'Deployment',
+    title: 'MOQUERIO',
     desc: 'Ship your models to production and serve predictions at scale.',
   },
 ];
